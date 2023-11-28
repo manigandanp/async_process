@@ -1,0 +1,13 @@
+minerva-templates:
+  api: https://minerva-automation-api.midgard.avalara.io
+  repo: "https://github.com/manigandanp/async_process.git"
+  version: "v0.1.0"
+
+templates:
+  step_one:
+    script: "./minerva-templates/step_one/step_one.py"
+    working_dir: "./minerva-templates/"
+
+  step_two:
+    script: "./minerva-templates/step_two/step_two.py"
+    working_dir: "./minerva-templates/"
